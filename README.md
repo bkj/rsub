@@ -9,7 +9,7 @@ This is a very simple module for using `rsub` from within Python.
 #### Usage
 
 ```
-    import rsub
+    from rsub import rsub, show_plot
     from matplotlib import pyplot
 
     _ = plt.scatter(range(10), range(10))
