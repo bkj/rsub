@@ -15,5 +15,5 @@ setup(
     keywords=['rsub'],
     license='ALV2',
     packages=['rsub'],
-    version="0.0.2"
+    version="0.0.0"
 )
