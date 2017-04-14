@@ -1,7 +1,7 @@
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from subprocess import Popen, check_output
+from subprocess import check_output
 
 def rsub(path):
     """ str path: path to open """
