@@ -1,9 +1,5 @@
 #!/usr/bin/env/python
 
-"""
-    Setup script for `rsub`
-"""
-
 from setuptools import setup
 
 setup(
