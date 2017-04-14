@@ -11,7 +11,7 @@ setup(
     author='Ben Johnson',
     author_email='bkj.322@gmail.com',
     classifiers=[],
-    description='tools for working over ssh',
+    description='tools for working over ssh via rsub',
     keywords=['rsub'],
     license='ALV2',
     packages=['rsub'],
