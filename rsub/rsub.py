@@ -7,8 +7,8 @@ def rsub(path):
     """ str path: path to open """
     _ = check_output('rsub %s' % path, shell=True)
 
-def show_plot(outpath='./tmp.png'):
+def show_plot(outpath='./tmp.png', *args, **kwargs):
     """ str outpath: path to write figure """
-    plt.savefig(outpath)
+    plt.savefig(outpath, *args, **kwargs)
     plt.close()
     rsub(outpath)
